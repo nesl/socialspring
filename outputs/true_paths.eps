@@ -1,0 +1,2303 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.0.0.783 (R2012b). Operating System: Darwin 12.5.0 Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64 x86_64.
+%%Title: outputs/true_paths.eps
+%%CreationDate: 07/04/2014  11:26:52
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:   183   287   383   503
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:   183   287   383   503
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 1.01389 def
+portraitMode 0162 0525 csm
+
+   24    15   203   219 rc
+278 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0  295  249 rf
+0.506944 w
+gs 70 22 153 178 rc
+/mwscm { [/Indexed /DeviceRGB 255
+  <
+    000000 010101 020202 030303 040404 050505 060606 070707 080808 090909 
+    0a0a0a 0b0b0b 0c0c0c 0d0d0d 0e0e0e 0f0f0f 101010 111111 121212 131313 
+    141414 151515 161616 171717 181818 191919 1a1a1a 1b1b1b 1c1c1c 1d1d1d 
+    1e1e1e 1f1f1f 202020 212121 222222 232323 242424 252525 262626 272727 
+    282828 292929 2a2a2a 2b2b2b 2c2c2c 2d2d2d 2e2e2e 2f2f2f 303030 313131 
+    323232 333333 343434 353535 363636 373737 383838 393939 3a3a3a 3b3b3b 
+    3c3c3c 3d3d3d 3e3e3e 3f3f3f 404040 414141 424242 434343 444444 454545 
+    464646 474747 484848 494949 4a4a4a 4b4b4b 4c4c4c 4d4d4d 4e4e4e 4f4f4f 
+    505050 515151 525252 535353 545454 555555 565656 575757 585858 595959 
+    5a5a5a 5b5b5b 5c5c5c 5d5d5d 5e5e5e 5f5f5f 606060 616161 626262 636363 
+    646464 656565 666666 676767 686868 696969 6a6a6a 6b6b6b 6c6c6c 6d6d6d 
+    6e6e6e 6f6f6f 707070 717171 727272 737373 747474 757575 767676 777777 
+    787878 797979 7a7a7a 7b7b7b 7c7c7c 7d7d7d 7e7e7e 7f7f7f 808080 818181 
+    828282 838383 848484 858585 868686 878787 888888 898989 8a8a8a 8b8b8b 
+    8c8c8c 8d8d8d 8e8e8e 8f8f8f 909090 919191 929292 939393 949494 959595 
+    969696 979797 989898 999999 9a9a9a 9b9b9b 9c9c9c 9d9d9d 9e9e9e 9f9f9f 
+    a0a0a0 a1a1a1 a2a2a2 a3a3a3 a4a4a4 a5a5a5 a6a6a6 a7a7a7 a8a8a8 a9a9a9 
+    aaaaaa ababab acacac adadad aeaeae afafaf b0b0b0 b1b1b1 b2b2b2 b3b3b3 
+    b4b4b4 b5b5b5 b6b6b6 b7b7b7 b8b8b8 b9b9b9 bababa bbbbbb bcbcbc bdbdbd 
+    bebebe bfbfbf c0c0c0 c1c1c1 c2c2c2 c3c3c3 c4c4c4 c5c5c5 c6c6c6 c7c7c7 
+    c8c8c8 c9c9c9 cacaca cbcbcb cccccc cdcdcd cecece cfcfcf d0d0d0 d1d1d1 
+    d2d2d2 d3d3d3 d4d4d4 d5d5d5 d6d6d6 d7d7d7 d8d8d8 d9d9d9 dadada dbdbdb 
+    dcdcdc dddddd dedede dfdfdf e0e0e0 e1e1e1 e2e2e2 e3e3e3 e4e4e4 e5e5e5 
+    e6e6e6 e7e7e7 e8e8e8 e9e9e9 eaeaea ebebeb ececec ededed eeeeee efefef 
+    f0f0f0 f1f1f1 f2f2f2 f3f3f3 f4f4f4 f5f5f5 f6f6f6 f7f7f7 f8f8f8 f9f9f9 
+    fafafa fbfbfb fcfcfc fdfdfd fefefe ffffff 
+  >
+] setcolorspace } bdef mwscm
+gs np 70 22 mt 0 173 rl 152 0 rl 0 -173 rl cp c np
+[152 0 0 173 70 22] cc
+<< % Image dictionary
+  /ImageType 1
+  /Width 150 /Height 175
+  /BitsPerComponent 8
+  /Decode [0 255]
+  /ImageMatrix [150.000000 0 0 175.000000 0 0]
+  /DataSource currentfile
+  /ASCII85Decode filter
+  /RunLengthDecode filter
+>>
+image
+JH4s8[K#t$nGi=bmf2VR[K#t$nGi=bmf2VR[K#t$nGi=bmf2VR[K#t$nGi=bmf2VRlMpSY]Dq^-mf2VR
+li6VX]`7g.mf2VRm/QYW^&Rp/mf2VRmJl\V^An$0mf2VRmf2_U^]4-1mf2VRmf2\TVZ5u_mf2\TVZ5u_
+mf2\TVZ5u_mf2\TVZ5u_mf2\TVZ5u_mf2\T^Amj+p&F@Ymf2\T^Amj+p&F@Ymf2\T^Amj+jT#/Ymf2\T
+^Amj+jT#/Ymf2\T^Amj+jT#/Ymf2\Tmf31bf)PCCjT#/Ymf2\Tmf31bf)PCCjT#/Ymf2\Tmf31bf)PCC
+jT#/Ymf2\Tmf31bf)PCCjT#/Ymf2\Tmf31bf)PCCjT#/Ymf2\Tmf2\TjT"lQjT#/Ymf2\Tmf2\TjT"lQ
+jT#/Ymf2\Tmf2\TjT"lQjT#/Ymf2\Tmf2\TjT"lQjT##Uo)J+Xmf2\TjT"lQjT##Uo)J+Xmf2\TjT"lQ
+jT##Uo)J+Xmf2\TjT"lQjT##Uo)J+Xmf2\TjT"lQjT##Uo)J+Xmf2\TjT"lQjT##Uo)J+Xmf2\TjT"lQ
+jT##Uo)J+Xmf2\TjT"lQjT##Uo)J+Xmf2\TjT"lQjT#/Ymf2\Tmf2\TjT"lQjT#/Ymf2\Tmf2\TjT"lQ
+jT##Uo)J+Xp]'=TjT"lQjT##Unc/(YpAa4SjT"lQjT##UnGi%Zp&F+RjT"lQjT##Un,N"[o`+"QjT"lQ
+jT##Umf2t\oDdnPjT"lQjT##Uec4_2jT"lQjT##Uec4_2jT"lQjT#/YdJr;.jT"lQjT#/YdJr;.jT"lQ
+jT#/YdJr;.jT"lQjT"oRf`1%5jT!I)f`1%5jT!I)f`1%5jT!I)f`1%5jT!I)f`1%5jT!I)f`1%5jT!I)
+f`1%5jT!I)f`1%5jT!I)f`1%5jT!:$h>cR:jT!:$h>cR:bl?T$h>cR:bl?T$h>cR:bl?T$h>cR:bl?T$
+h>cR:bl?T$h>cR:bl?T$h>cR:bl?T$h>cR:bl?T$h>cR:bl@#0ci</.bl@#0ci</.bl@#0ci</.bl?N"
+h>cX<bl?N"h>cX<bl?N"h>cU;c2ZW#h>cR:ci;f$h>cO9dJqu%h>cL8e,S/&h>cI7ec4>'h>bq(oDcu6
+h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6
+h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6h>bq(oDcu6
+h>bq(oDcu6h>bq(oDcu6h>cI7ec4>'h>cL8e,S/&h>cO9dJqu%h>cR:ci;f$h>cU;c2Zf(f`1+7bl?]'
+f`1+7bl?]'f`1+7bl?]'f`1+7bl?]'f`1+7bl?]'f`1+7bl?]'f`1+7bl?]'f`1+7bl?]'f`1+7bl?]'
+f`1+7bl?N"h>cX<bl?N"h>cX<bl?N"h>cX<bl?N"h>cX<bl?N"h>cX<bl?N"M>uT9M>uT9M>uT9M>uT9
+OT4)9OT4)9OT4)9OT4)9OT4)9_uKH2f`0_,_uKH2f`0_,_uKH2f`0_,_uKH2f`0_,_uKH2f`0_,_uKH2
+f)OS,_uKH2f)OS,_uKH2f)OS,_uKH2f)OS,_uKH2f)OS,_uKH2f)OS,_uKH2f)OS,_uKH2f)OS,_uKH2
+f)OS,_uKH2f)P(:[K#t$f)P(:[K#t$f)P(:[K#t$f)P(:[K#t$f)P(:[K#t$f)P(:[K#t$f)P(:[K#t$
+f)P(:[K#t$f)P(:[K#t$f)P(:l2SX$f)P(:l2SU#f`17;l2SR"gAgF<l2SO!h#HU=l2SKuhZ)d>l2QA9
+l2QA9l2QA9qYu*Hnc8OdJH56@qYu*Hnc8OdJH56@qYu*Hnc8OdJH56@qYu*Hnc8OdJH56@qYu*Hnc8Od
+JH56@qYu*Hnc8OdJH16$JH16$JH16$K`HW
+~>
+gr
+gr
+
+0 sg
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 14.1944 FMSR
+
+ 113  228 mt 
+(X Position) s
+  40  143 mt  -90 rotate
+(Y Position) s
+90 rotate
+gs 70 22 153 178 rc
+/c8 { 1.000000 0.000000 0.000000 sr} bdef
+c8
+0 1 1 0 -1 0 0 -1 -1 0 -1 1 -2 1 -1 3 
+-1 3 -1 3 -1 4 0 3 -1 3 0 2 0 4 -1 5 
+-1 6 0 5 0 5 0 4 0 4 0 2 0 2 1 2 
+1 4 0 3 1 3 1 3 0 2 2 5 2 5 1 5 
+0 2 1 3 0 3 0 2 1 2 0 2 1 4 0 5 
+1 3 1 1 1 2 1 2 2 2 2 2 3 0 3 1 
+3 1 3 0 3 0 3 1 4 0 3 0 2 0 3 -1 
+2 0 1 0 1 -3 2 -3 1 -5 2 -4 1 -5 1 -6 
+1 -6 2 -6 1 -5 0 -4 1 -4 -2 -2 -1 -2 0 -3 
+-1 -3 0 -3 0 -2 0 -2 0 -1 0 -1 0 -1 0 -1 
+1 2 1 3 2 3 2 4 2 1 1 1 1 1 1 1 
+2 3 2 3 2 3 3 3 3 4 3 4 2 3 1 2 
+2 1 0 3 1 2 1 6 1 5 0 5 1 4 1 3 
+0 2 0 2 0 1 0 1 0 1 0 1 0 1 0 1 
+1 0 0 1 1 0 0 -2 -1 -2 -1 -3 -1 -4 -1 -3 
+0 -2 0 -2 0 -2 -2 -4 -1 -4 0 -4 0 -4 -3 -3 
+-4 -2 -3 -2 -2 -1 -2 0 -2 -1 -1 -2 -1 -4 0 -3 
+-2 -4 -1 -4 0 -5 -1 -5 1 -5 0 -4 1 -4 -3 -4 
+-2 -5 0 -4 0 -5 0 -3 0 -3 0 -3 -2 -3 -1 -3 
+-3 -2 -5 -1 -6 -1 -5 -1 -5 -1 -4 1 -2 1 -4 2 
+-3 1 -4 1 -4 0 -3 0 -4 0 -4 -1 -4 -1 -4 -1 
+-1 2 0 1 -1 1 0 3 0 3 0 3 0 2 0 3 
+0 3 0 4 0 3 0 4 0 3 -1 3 -1 4 -1 4 
+-1 4 0 3 -2 2 -2 0 -2 1 -2 1 -1 0 0 1 
+-1 0 1 0 2 0 1 0 2 0 2 0 1 -2 2 -1 
+1 -1 0 -1 0 -1 0 -1 0 -2 -1 -3 0 -3 0 -3 
+1 -2 0 -2 -1 -4 0 -5 0 -4 0 -3 1 -3 1 -3 
+1 -4 1 -3 0 -3 1 -3 0 -3 1 -2 1 -1 1 0 
+1 -1 2 -2 2 -1 1 -2 2 -1 1 -2 0 -1 0 -1 
+-1 -1 0 -1 -1 0 0 1 -1 0 -1 2 0 2 -1 2 
+0 2 1 3 0 2 1 3 0 2 1 2 1 2 1 1 
+2 1 3 0 2 0 3 -1 2 -1 2 0 2 -2 3 -1 
+2 -2 2 -1 2 -2 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -2 1 -1 1 -1 2 -2 2 -2 2 0 2 1 2 0 
+3 0 2 1 3 0 3 1 3 1 3 0 4 1 2 3 
+3 3 1 3 0 2 -1 1 0 3 -1 3 0 4 -1 4 
+0 4 -1 5 0 4 0 4 -1 5 0 4 0 4 0 4 
+0 3 1 4 0 4 97 87 300 MP stroke
+0 4 0 4 0 4 -1 3 -1 2 -1 3 -2 0 -1 0 
+-2 0 0 1 -1 0 -1 0 -1 0 -1 1 -1 2 0 1 
+-1 1 -1 1 0 2 -1 1 -1 1 -1 3 -1 2 -1 3 
+-1 2 -1 3 -1 3 -2 3 -2 2 -3 2 -2 1 -2 1 
+-1 1 -2 1 -3 -1 -3 0 -3 -1 -3 -1 -4 0 -4 -1 
+-5 0 -6 -1 -1 1 -2 1 -2 1 -2 0 -3 1 -3 0 
+-3 1 -3 0 -3 -1 -3 -1 -2 0 -2 0 -1 0 -1 -1 
+-1 -2 -1 -2 -1 -2 0 -2 0 -2 0 -2 0 -1 0 -1 
+0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 
+-1 0 0 -1 -1 0 -1 1 -1 0 -1 0 -1 0 0 1 
+-1 0 -1 0 1 2 2 3 1 2 1 2 1 4 1 4 
+1 3 1 2 2 0 1 1 2 0 2 0 2 0 1 0 
+2 0 2 0 1 -1 2 0 2 0 2 -1 1 -1 2 -1 
+1 -2 1 -1 1 -2 1 -2 1 -3 1 -2 0 -2 1 -3 
+2 -4 1 -3 2 -4 2 -4 2 -4 1 -3 1 -1 1 -2 
+0 -1 0 -1 -1 0 0 -1 -1 -1 -1 -2 0 -2 -1 -1 
+-3 -1 -3 -1 -2 -1 -2 -1 -2 -1 -2 -1 -2 -3 -2 -5 
+-2 -5 0 -3 0 -2 0 -3 -1 -3 0 -3 -2 -2 -3 -2 
+-2 -1 -1 -1 -1 0 -1 0 -1 -1 -1 0 -1 0 -1 -1 
+-1 0 -1 0 0 -1 -1 0 0 -1 1 -2 1 -3 1 -2 
+1 -1 1 -2 4 0 3 -1 4 0 4 0 4 0 4 0 
+5 -1 5 0 2 -1 3 0 2 -1 2 -1 2 0 2 0 
+1 -1 1 -1 1 -1 2 -2 1 -3 2 -2 3 -2 4 -2 
+3 -2 4 -2 4 -1 4 -1 6 -1 5 0 3 0 3 0 
+3 0 1 -1 1 -1 1 -1 1 -1 1 0 0 -1 1 -1 
+1 -1 1 0 -1 1 0 2 -1 1 -1 2 -2 2 -1 2 
+0 2 -1 2 0 2 0 2 0 2 1 2 0 3 0 3 
+1 3 1 4 1 4 1 5 0 3 1 4 0 2 0 1 
+0 1 0 1 0 2 1 3 0 2 0 1 0 1 0 1 
+0 1 0 1 0 1 0 1 -1 1 -1 3 -2 2 -2 3 
+-2 2 -1 1 -2 2 -2 2 -3 2 -2 2 -2 4 -2 4 
+-2 4 -1 5 -1 6 0 6 0 5 -1 5 0 4 0 2 
+-1 2 0 2 0 2 0 2 0 1 0 1 0 1 1 0 
+1 -1 0 -1 -1 0 0 -1 0 -2 0 -1 0 -2 0 -3 
+0 -3 0 -3 -1 -4 0 -5 -1 -4 1 -4 1 -3 0 -3 
+1 -3 0 -4 0 -2 0 -2 0 -2 0 -5 -1 -5 0 -4 
+0 -1 0 -1 -1 -1 0 -1 0 -1 0 -1 -1 0 0 -1 
+1 -4 1 -3 2 -4 113 110 300 MP stroke
+2 -4 2 -3 2 -5 2 -4 1 -3 1 -2 0 -2 2 -2 
+2 -2 1 -2 1 -1 1 -2 1 -2 0 -2 0 -2 1 -2 
+-2 -1 -1 -2 -2 -1 -5 0 -6 0 -5 1 -4 2 -3 2 
+-5 3 -5 2 -6 1 -6 0 -6 0 -5 -1 -5 0 -3 -1 
+-3 -1 -2 -1 0 -1 0 -2 -1 -3 0 -3 0 -3 0 -3 
+0 -1 0 -1 0 -1 1 0 0 -1 0 -1 0 -1 0 -1 
+0 1 0 1 0 1 0 4 0 4 -1 3 -1 4 -1 3 
+-1 4 0 5 -1 4 0 3 -1 4 -1 3 -1 2 0 2 
+-1 2 0 5 -1 5 0 5 0 4 0 4 -1 2 -1 1 
+-2 1 -2 1 -4 1 -3 1 -1 0 -1 0 -1 0 0 1 
+-1 0 -1 0 -1 0 -1 0 0 1 1 0 1 1 1 0 
+2 0 2 0 2 0 2 0 2 -2 2 -1 1 -2 1 -2 
+1 -2 0 -2 0 -2 0 -1 0 -2 0 -3 0 -3 0 -2 
+0 -3 1 -3 0 -3 1 -3 1 -3 0 -2 2 -5 1 -4 
+1 -5 2 -2 1 -3 2 -2 0 -2 1 -1 0 -2 0 -1 
+0 -2 1 -1 0 -1 0 -2 0 -1 1 0 0 1 -1 -1 
+-1 0 0 -1 -2 0 -2 -1 -3 0 -2 -1 -2 0 -1 -1 
+0 -1 -1 -1 0 -1 0 -1 -1 0 0 -1 0 -1 -1 0 
+-2 1 -2 0 -1 0 -2 0 -1 0 -1 1 -1 1 -1 0 
+0 1 -1 0 0 1 0 1 0 2 0 1 1 2 0 2 
+1 1 0 2 1 2 2 3 1 3 2 1 1 1 2 1 
+2 1 3 0 3 1 2 0 3 0 3 0 3 0 2 0 
+2 0 2 -1 1 0 1 0 2 0 2 -1 2 0 2 -1 
+2 -1 2 -2 2 -2 2 -3 1 -3 1 -2 0 -2 1 -2 
+1 -1 2 -2 1 0 1 0 1 0 0 -1 1 0 1 0 
+1 0 0 1 1 0 1 0 3 0 3 1 3 0 4 1 
+5 0 2 0 1 -1 1 0 2 -1 1 0 1 1 2 0 
+1 0 1 0 1 0 -1 1 -1 2 -2 1 -1 1 0 2 
+0 3 -1 2 0 2 -1 2 -1 1 -1 2 -1 2 0 2 
+0 2 0 2 0 2 -1 0 -1 1 -1 1 -1 0 -1 1 
+0 2 0 1 0 2 0 1 0 2 0 2 0 2 0 4 
+1 5 0 4 0 5 0 6 0 5 -1 6 -1 7 -1 6 
+0 2 -1 3 0 2 -1 2 0 2 -1 2 0 2 -1 2 
+-1 3 0 2 0 4 -1 4 0 5 0 1 0 2 0 1 
+0 2 0 1 0 1 0 1 -1 0 -1 1 -2 0 -3 -1 
+-2 0 -2 -1 -1 0 -2 0 -1 0 -1 -1 -1 0 -2 0 
+-1 0 -1 0 -1 0 -2 0 -1 -1 -1 0 -2 -1 -2 -1 
+-2 0 -2 -2 -4 -3 156 38 300 MP stroke
+-5 -3 -2 -4 0 -4 -1 -4 1 -3 0 -2 0 -3 1 -4 
+0 -3 -1 -4 -1 -3 -2 -4 -2 -4 -2 -4 -2 -4 -1 -1 
+-2 -2 -1 -2 -1 -2 -1 -1 -1 -1 0 -2 0 -2 0 -3 
+-1 -2 0 -5 0 -5 1 -4 1 -5 1 -5 1 -5 1 -4 
+1 -3 2 -4 1 -3 1 -3 1 -2 1 -2 0 -1 0 -1 
+1 0 0 -1 0 -1 0 -1 167 164 45 MP stroke
+gr
+
+c8
+gs 70 19 144 159 rc
+/c9 { 1.000000 0.500000 0.500000 sr} bdef
+c9
+   2    2  167  164 PO
+   2    2  167  163 PO
+   2    2  167  162 PO
+   2    2  167  161 PO
+   2    2  168  161 PO
+   2    2  168  160 PO
+   2    2  168  159 PO
+   2    2  169  157 PO
+   2    2  170  155 PO
+   2    2  171  152 PO
+   2    2  172  149 PO
+   2    2  174  145 PO
+   2    2  175  142 PO
+   2    2  176  138 PO
+   2    2  177  133 PO
+   2    2  178  128 PO
+   2    2  179  123 PO
+   2    2  180  119 PO
+   2    2  180  114 PO
+   2    2  180  109 PO
+   2    2  179  107 PO
+   2    2  179  104 PO
+   2    2  179  102 PO
+   2    2  179  100 PO
+   2    2  178   99 PO
+   2    2  177   98 PO
+   2    2  176   96 PO
+   2    2  175   94 PO
+   2    2  173   92 PO
+   2    2  172   91 PO
+   2    2  170   87 PO
+   2    2  168   83 PO
+   2    2  166   79 PO
+   2    2  164   75 PO
+   2    2  163   72 PO
+   2    2  162   68 PO
+   2    2  162   65 PO
+   2    2  163   61 PO
+   2    2  163   58 PO
+   2    2  163   56 PO
+   2    2  164   53 PO
+   2    2  163   49 PO
+   2    2  163   45 PO
+   2    2  161   41 PO
+   2    2  156   38 PO
+   2    2  152   35 PO
+   2    2  150   33 PO
+   2    2  148   33 PO
+   2    2  146   32 PO
+   2    2  144   31 PO
+   2    2  143   31 PO
+   2    2  142   30 PO
+   2    2  140   30 PO
+   2    2  139   30 PO
+   2    2  138   30 PO
+   2    2  137   30 PO
+   2    2  135   30 PO
+   2    2  134   30 PO
+   2    2  133   29 PO
+   2    2  132   29 PO
+   2    2  130   29 PO
+   2    2  129   29 PO
+   2    2  127   28 PO
+   2    2  125   28 PO
+   2    2  122   27 PO
+   2    2  120   27 PO
+   2    2  119   28 PO
+   2    2  118   28 PO
+   2    2  118   29 PO
+   2    2  118   30 PO
+   2    2  118   31 PO
+   2    2  118   33 PO
+   2    2  118   34 PO
+   2    2  118   36 PO
+   2    2  118   37 PO
+   2    2  118   42 PO
+   2    2  117   46 PO
+   2    2  117   50 PO
+   2    2  117   52 PO
+   2    2  116   55 PO
+   2    2  115   57 PO
+   2    2  115   59 PO
+   2    2  114   61 PO
+   2    2  114   63 PO
+   2    2  113   65 PO
+   2    2  113   67 PO
+   2    2  112   70 PO
+   2    2  112   72 PO
+   2    2  111   78 PO
+   2    2  110   85 PO
+   2    2  109   91 PO
+   2    2  109   96 PO
+   2    2  109  102 PO
+   2    2  109  107 PO
+   2    2  109  111 PO
+   2    2  110  116 PO
+   2    2  110  120 PO
+   2    2  110  122 PO
+   2    2  110  124 PO
+   2    2  110  126 PO
+   2    2  110  127 PO
+   2    2  110  129 PO
+   2    2  110  130 PO
+   2    2  110  132 PO
+   2    2  109  133 PO
+   2    2  108  133 PO
+   2    2  107  134 PO
+   2    2  106  135 PO
+   2    2  105  135 PO
+   2    2  105  137 PO
+   2    2  105  139 PO
+   2    2  105  141 PO
+   2    2  105  143 PO
+   2    2  104  145 PO
+   2    2  103  147 PO
+   2    2  102  148 PO
+   2    2  101  150 PO
+   2    2  101  152 PO
+   2    2  100  154 PO
+   2    2  100  157 PO
+   2    2  100  159 PO
+   2    2   99  160 PO
+   2    2   97  161 PO
+   2    2   96  163 PO
+   2    2   95  164 PO
+   2    2   96  164 PO
+   2    2   97  164 PO
+   2    2   98  164 PO
+   2    2  100  164 PO
+   2    2  101  165 PO
+   2    2  102  165 PO
+   2    2  104  164 PO
+   2    2  105  164 PO
+   2    2  106  163 PO
+   2    2  108  163 PO
+   2    2  113  163 PO
+   2    2  117  164 PO
+   2    2  120  164 PO
+   2    2  123  165 PO
+   2    2  126  165 PO
+   2    2  127  165 PO
+   2    2  128  165 PO
+   2    2  128  166 PO
+   2    2  129  166 PO
+   2    2  130  166 PO
+   2    2  131  166 PO
+   2    2  131  165 PO
+   2    2  132  165 PO
+   2    2  133  165 PO
+   2    2  134  165 PO
+   2    2  136  163 PO
+   2    2  137  162 PO
+   2    2  138  160 PO
+   2    2  138  158 PO
+   2    2  139  156 PO
+   2    2  140  153 PO
+   2    2  142  150 PO
+   2    2  144  148 PO
+   2    2  146  146 PO
+   2    2  148  145 PO
+   2    2  150  144 PO
+   2    2  152  144 PO
+   2    2  154  143 PO
+   2    2  156  143 PO
+   2    2  157  143 PO
+   2    2  158  143 PO
+   2    2  160  142 PO
+   2    2  162  142 PO
+   2    2  164  142 PO
+   2    2  167  142 PO
+   2    2  170  142 PO
+   2    2  173  142 PO
+   2    2  175  142 PO
+   2    2  178  143 PO
+   2    2  181  143 PO
+   2    2  183  144 PO
+   2    2  185  145 PO
+   2    2  186  146 PO
+   2    2  188  147 PO
+   2    2  189  150 PO
+   2    2  191  153 PO
+   2    2  192  155 PO
+   2    2  192  157 PO
+   2    2  193  158 PO
+   2    2  193  160 PO
+   2    2  194  162 PO
+   2    2  194  163 PO
+   2    2  194  165 PO
+   2    2  194  166 PO
+   2    2  194  167 PO
+   2    2  193  167 PO
+   2    2  193  168 PO
+   2    2  192  168 PO
+   2    2  191  169 PO
+   2    2  190  170 PO
+   2    2  189  170 PO
+   2    2  187  170 PO
+   2    2  186  170 PO
+   2    2  184  170 PO
+   2    2  182  171 PO
+   2    2  181  171 PO
+   2    2  181  170 PO
+   2    2  181  169 PO
+   2    2  180  169 PO
+   2    2  180  168 PO
+   2    2  180  167 PO
+   2    2  179  166 PO
+   2    2  179  165 PO
+   2    2  178  164 PO
+   2    2  176  164 PO
+   2    2  174  163 PO
+   2    2  171  163 PO
+   2    2  169  162 PO
+   2    2  167  162 PO
+   2    2  167  161 PO
+   2    2  166  161 PO
+   2    2  165  160 PO
+   2    2  165  161 PO
+   2    2  166  161 PO
+   2    2  166  160 PO
+   2    2  166  158 PO
+   2    2  166  157 PO
+   2    2  167  156 PO
+   2    2  167  154 PO
+   2    2  167  153 PO
+   2    2  167  151 PO
+   2    2  168  150 PO
+   2    2  168  148 PO
+   2    2  170  146 PO
+   2    2  171  143 PO
+   2    2  173  141 PO
+   2    2  174  136 PO
+   2    2  175  132 PO
+   2    2  177  127 PO
+   2    2  177  125 PO
+   2    2  178  122 PO
+   2    2  179  119 PO
+   2    2  179  116 PO
+   2    2  180  113 PO
+   2    2  180  110 PO
+   2    2  180  108 PO
+   2    2  180  105 PO
+   2    2  180  102 PO
+   2    2  180  100 PO
+   2    2  180   99 PO
+   2    2  180   97 PO
+   2    2  180   95 PO
+   2    2  181   93 PO
+   2    2  182   91 PO
+   2    2  183   89 PO
+   2    2  185   88 PO
+   2    2  187   86 PO
+   2    2  189   86 PO
+   2    2  191   86 PO
+   2    2  193   86 PO
+   2    2  195   86 PO
+   2    2  196   86 PO
+   2    2  197   87 PO
+   2    2  198   87 PO
+   2    2  198   88 PO
+   2    2  197   88 PO
+   2    2  196   88 PO
+   2    2  195   88 PO
+   2    2  194   88 PO
+   2    2  194   89 PO
+   2    2  193   89 PO
+   2    2  192   89 PO
+   2    2  191   89 PO
+   2    2  188   90 PO
+   2    2  184   91 PO
+   2    2  182   92 PO
+   2    2  180   93 PO
+   2    2  179   94 PO
+   2    2  178   96 PO
+   2    2  178  100 PO
+   2    2  178  104 PO
+   2    2  178  109 PO
+   2    2  177  114 PO
+   2    2  177  119 PO
+   2    2  176  121 PO
+   2    2  176  123 PO
+   2    2  175  125 PO
+   2    2  174  128 PO
+   2    2  173  132 PO
+   2    2  173  135 PO
+   2    2  172  139 PO
+   2    2  172  144 PO
+   2    2  171  148 PO
+   2    2  170  151 PO
+   2    2  169  155 PO
+   2    2  168  158 PO
+   2    2  168  162 PO
+   2    2  168  166 PO
+   2    2  168  167 PO
+   2    2  168  168 PO
+   2    2  168  169 PO
+   2    2  168  168 PO
+   2    2  168  167 PO
+   2    2  168  166 PO
+   2    2  168  165 PO
+   2    2  169  165 PO
+   2    2  169  164 PO
+   2    2  169  163 PO
+   2    2  169  162 PO
+   2    2  169  159 PO
+   2    2  169  156 PO
+   2    2  169  153 PO
+   2    2  168  150 PO
+   2    2  168  148 PO
+   2    2  168  147 PO
+   2    2  166  146 PO
+   2    2  163  145 PO
+   2    2  160  144 PO
+   2    2  155  144 PO
+   2    2  150  143 PO
+   2    2  144  143 PO
+   2    2  138  143 PO
+   2    2  132  144 PO
+   2    2  127  146 PO
+   2    2  122  149 PO
+   2    2  119  151 PO
+   2    2  115  153 PO
+   2    2  110  154 PO
+   2    2  104  154 PO
+   2    2   99  154 PO
+   2    2   97  153 PO
+   2    2   96  151 PO
+   2    2   94  150 PO
+   2    2   95  148 PO
+   2    2   95  146 PO
+   2    2   95  144 PO
+   2    2   96  142 PO
+   2    2   97  140 PO
+   2    2   98  139 PO
+   2    2   99  137 PO
+   2    2  101  135 PO
+   2    2  103  133 PO
+   2    2  103  131 PO
+   2    2  104  129 PO
+   2    2  105  126 PO
+   2    2  107  122 PO
+   2    2  109  117 PO
+   2    2  111  114 PO
+   2    2  113  110 PO
+   2    2  115  106 PO
+   2    2  116  103 PO
+   2    2  117   99 PO
+   2    2  117   98 PO
+   2    2  116   98 PO
+   2    2  116   97 PO
+   2    2  116   96 PO
+   2    2  116   95 PO
+   2    2  115   94 PO
+   2    2  115   93 PO
+   2    2  115   92 PO
+   2    2  115   88 PO
+   2    2  114   83 PO
+   2    2  114   78 PO
+   2    2  114   76 PO
+   2    2  114   74 PO
+   2    2  114   72 PO
+   2    2  114   68 PO
+   2    2  115   65 PO
+   2    2  115   62 PO
+   2    2  116   59 PO
+   2    2  117   55 PO
+   2    2  116   51 PO
+   2    2  116   46 PO
+   2    2  115   42 PO
+   2    2  115   39 PO
+   2    2  115   36 PO
+   2    2  115   33 PO
+   2    2  115   31 PO
+   2    2  115   30 PO
+   2    2  115   28 PO
+   2    2  115   27 PO
+   2    2  114   27 PO
+   2    2  114   26 PO
+   2    2  115   25 PO
+   2    2  116   25 PO
+   2    2  116   26 PO
+   2    2  116   27 PO
+   2    2  116   28 PO
+   2    2  116   30 PO
+   2    2  116   32 PO
+   2    2  116   34 PO
+   2    2  115   36 PO
+   2    2  115   38 PO
+   2    2  115   42 PO
+   2    2  114   47 PO
+   2    2  114   52 PO
+   2    2  114   58 PO
+   2    2  113   64 PO
+   2    2  112   69 PO
+   2    2  110   73 PO
+   2    2  108   77 PO
+   2    2  106   81 PO
+   2    2  104   83 PO
+   2    2  101   85 PO
+   2    2   99   87 PO
+   2    2   97   89 PO
+   2    2   96   90 PO
+   2    2   94   92 PO
+   2    2   92   95 PO
+   2    2   90   97 PO
+   2    2   89  100 PO
+   2    2   88  101 PO
+   2    2   88  102 PO
+   2    2   88  103 PO
+   2    2   88  104 PO
+   2    2   88  105 PO
+   2    2   88  106 PO
+   2    2   88  107 PO
+   2    2   88  108 PO
+   2    2   88  110 PO
+   2    2   89  113 PO
+   2    2   89  115 PO
+   2    2   89  116 PO
+   2    2   89  117 PO
+   2    2   89  118 PO
+   2    2   89  120 PO
+   2    2   90  124 PO
+   2    2   90  127 PO
+   2    2   91  132 PO
+   2    2   92  136 PO
+   2    2   93  140 PO
+   2    2   94  143 PO
+   2    2   94  146 PO
+   2    2   94  149 PO
+   2    2   95  151 PO
+   2    2   95  153 PO
+   2    2   95  155 PO
+   2    2   95  157 PO
+   2    2   94  159 PO
+   2    2   94  161 PO
+   2    2   93  163 PO
+   2    2   91  165 PO
+   2    2   90  167 PO
+   2    2   89  168 PO
+   2    2   89  170 PO
+   2    2   88  171 PO
+   2    2   89  171 PO
+   2    2   90  170 PO
+   2    2   91  169 PO
+   2    2   91  168 PO
+   2    2   92  168 PO
+   2    2   93  167 PO
+   2    2   94  166 PO
+   2    2   95  165 PO
+   2    2   96  164 PO
+   2    2   99  164 PO
+   2    2  102  164 PO
+   2    2  105  164 PO
+   2    2  110  164 PO
+   2    2  116  163 PO
+   2    2  120  162 PO
+   2    2  124  161 PO
+   2    2  128  159 PO
+   2    2  131  157 PO
+   2    2  135  155 PO
+   2    2  138  153 PO
+   2    2  140  151 PO
+   2    2  141  148 PO
+   2    2  143  146 PO
+   2    2  144  145 PO
+   2    2  145  144 PO
+   2    2  146  143 PO
+   2    2  148  143 PO
+   2    2  150  143 PO
+   2    2  152  142 PO
+   2    2  154  141 PO
+   2    2  157  141 PO
+   2    2  159  140 PO
+   2    2  164  140 PO
+   2    2  169  139 PO
+   2    2  173  139 PO
+   2    2  177  139 PO
+   2    2  181  139 PO
+   2    2  185  139 PO
+   2    2  188  138 PO
+   2    2  192  138 PO
+   2    2  193  136 PO
+   2    2  194  135 PO
+   2    2  195  133 PO
+   2    2  196  130 PO
+   2    2  197  128 PO
+   2    2  197  127 PO
+   2    2  196  127 PO
+   2    2  196  126 PO
+   2    2  195  126 PO
+   2    2  194  126 PO
+   2    2  193  125 PO
+   2    2  192  125 PO
+   2    2  191  125 PO
+   2    2  190  124 PO
+   2    2  189  124 PO
+   2    2  188  124 PO
+   2    2  187  123 PO
+   2    2  185  122 PO
+   2    2  182  120 PO
+   2    2  180  118 PO
+   2    2  180  115 PO
+   2    2  179  112 PO
+   2    2  179  109 PO
+   2    2  179  107 PO
+   2    2  179  104 PO
+   2    2  177   99 PO
+   2    2  175   94 PO
+   2    2  173   91 PO
+   2    2  171   90 PO
+   2    2  169   89 PO
+   2    2  167   88 PO
+   2    2  165   87 PO
+   2    2  162   86 PO
+   2    2  159   85 PO
+   2    2  158   84 PO
+   2    2  158   82 PO
+   2    2  157   80 PO
+   2    2  156   79 PO
+   2    2  156   78 PO
+   2    2  155   78 PO
+   2    2  155   77 PO
+   2    2  155   76 PO
+   2    2  156   74 PO
+   2    2  157   73 PO
+   2    2  158   70 PO
+   2    2  160   66 PO
+   2    2  162   62 PO
+   2    2  164   58 PO
+   2    2  165   55 PO
+   2    2  167   51 PO
+   2    2  168   48 PO
+   2    2  168   46 PO
+   2    2  169   44 PO
+   2    2  170   41 PO
+   2    2  171   39 PO
+   2    2  172   37 PO
+   2    2  173   36 PO
+   2    2  174   34 PO
+   2    2  176   33 PO
+   2    2  177   32 PO
+   2    2  179   31 PO
+   2    2  181   31 PO
+   2    2  183   31 PO
+   2    2  184   30 PO
+   2    2  186   30 PO
+   2    2  188   30 PO
+   2    2  189   30 PO
+   2    2  191   30 PO
+   2    2  193   30 PO
+   2    2  195   30 PO
+   2    2  196   31 PO
+   2    2  198   31 PO
+   2    2  199   33 PO
+   2    2  200   36 PO
+   2    2  201   40 PO
+   2    2  202   44 PO
+   2    2  203   46 PO
+   2    2  204   48 PO
+   2    2  206   51 PO
+   2    2  207   53 PO
+   2    2  206   53 PO
+   2    2  205   53 PO
+   2    2  205   54 PO
+   2    2  204   54 PO
+   2    2  203   54 PO
+   2    2  202   54 PO
+   2    2  201   55 PO
+   2    2  200   55 PO
+   2    2  200   54 PO
+   2    2  199   54 PO
+   2    2  199   53 PO
+   2    2  199   52 PO
+   2    2  199   51 PO
+   2    2  199   50 PO
+   2    2  199   49 PO
+   2    2  199   48 PO
+   2    2  199   47 PO
+   2    2  199   46 PO
+   2    2  199   45 PO
+   2    2  199   44 PO
+   2    2  199   42 PO
+   2    2  199   40 PO
+   2    2  199   38 PO
+   2    2  198   36 PO
+   2    2  197   34 PO
+   2    2  196   32 PO
+   2    2  195   31 PO
+   2    2  194   31 PO
+   2    2  192   31 PO
+   2    2  190   31 PO
+   2    2  187   30 PO
+   2    2  184   29 PO
+   2    2  181   29 PO
+   2    2  178   30 PO
+   2    2  175   30 PO
+   2    2  172   31 PO
+   2    2  170   31 PO
+   2    2  168   32 PO
+   2    2  166   33 PO
+   2    2  165   34 PO
+   2    2  159   33 PO
+   2    2  154   33 PO
+   2    2  150   32 PO
+   2    2  146   32 PO
+   2    2  143   31 PO
+   2    2  140   30 PO
+   2    2  137   30 PO
+   2    2  134   29 PO
+   2    2  132   30 PO
+   2    2  131   31 PO
+   2    2  129   32 PO
+   2    2  127   33 PO
+   2    2  124   35 PO
+   2    2  122   37 PO
+   2    2  120   40 PO
+   2    2  119   43 PO
+   2    2  118   46 PO
+   2    2  117   48 PO
+   2    2  116   51 PO
+   2    2  115   53 PO
+   2    2  114   56 PO
+   2    2  113   57 PO
+   2    2  112   58 PO
+   2    2  112   60 PO
+   2    2  111   61 PO
+   2    2  110   62 PO
+   2    2  110   63 PO
+   2    2  109   65 PO
+   2    2  108   66 PO
+   2    2  107   66 PO
+   2    2  106   66 PO
+   2    2  105   66 PO
+   2    2  105   67 PO
+   2    2  103   67 PO
+   2    2  102   67 PO
+   2    2  100   67 PO
+   2    2   99   70 PO
+   2    2   98   72 PO
+   2    2   97   75 PO
+   2    2   97   79 PO
+   2    2   97   83 PO
+   2    2   97   87 PO
+   2    2   97   91 PO
+   2    2   98   95 PO
+   2    2   98   98 PO
+   2    2   98  102 PO
+   2    2   98  106 PO
+   2    2   98  110 PO
+   2    2   97  115 PO
+   2    2   97  119 PO
+   2    2   97  123 PO
+   2    2   96  128 PO
+   2    2   96  132 PO
+   2    2   95  136 PO
+   2    2   95  140 PO
+   2    2   94  143 PO
+   2    2   94  146 PO
+   2    2   93  147 PO
+   2    2   93  149 PO
+   2    2   94  152 PO
+   2    2   97  155 PO
+   2    2   99  158 PO
+   2    2  103  159 PO
+   2    2  106  159 PO
+   2    2  109  160 PO
+   2    2  112  161 PO
+   2    2  115  161 PO
+   2    2  117  162 PO
+   2    2  120  162 PO
+   2    2  122  162 PO
+   2    2  124  163 PO
+   2    2  126  163 PO
+   2    2  128  161 PO
+   2    2  130  159 PO
+   2    2  131  158 PO
+   2    2  132  157 PO
+   2    2  133  155 PO
+   2    2  134  154 PO
+   2    2  135  153 PO
+   2    2  136  152 PO
+   2    2  137  151 PO
+   2    2  138  150 PO
+   2    2  140  148 PO
+   2    2  142  147 PO
+   2    2  144  145 PO
+   2    2  147  144 PO
+   2    2  149  142 PO
+   2    2  151  142 PO
+   2    2  153  141 PO
+   2    2  156  140 PO
+   2    2  158  140 PO
+   2    2  161  140 PO
+   2    2  163  141 PO
+   2    2  164  142 PO
+   2    2  165  144 PO
+   2    2  166  146 PO
+   2    2  166  148 PO
+   2    2  167  151 PO
+   2    2  167  153 PO
+   2    2  168  156 PO
+   2    2  168  158 PO
+   2    2  167  160 PO
+   2    2  167  162 PO
+   2    2  166  164 PO
+   2    2  165  164 PO
+   2    2  165  165 PO
+   2    2  164  165 PO
+   2    2  164  164 PO
+   2    2  163  163 PO
+   2    2  163  162 PO
+   2    2  163  161 PO
+   2    2  164  159 PO
+   2    2  166  158 PO
+   2    2  167  156 PO
+   2    2  169  155 PO
+   2    2  171  153 PO
+   2    2  172  152 PO
+   2    2  173  152 PO
+   2    2  174  151 PO
+   2    2  175  149 PO
+   2    2  175  146 PO
+   2    2  176  143 PO
+   2    2  176  140 PO
+   2    2  177  137 PO
+   2    2  178  133 PO
+   2    2  179  130 PO
+   2    2  180  127 PO
+   2    2  180  124 PO
+   2    2  180  120 PO
+   2    2  180  115 PO
+   2    2  179  111 PO
+   2    2  179  109 PO
+   2    2  180  107 PO
+   2    2  180  104 PO
+   2    2  180  101 PO
+   2    2  179   98 PO
+   2    2  179   96 PO
+   2    2  179   95 PO
+   2    2  179   94 PO
+   2    2  179   93 PO
+   2    2  180   92 PO
+   2    2  182   91 PO
+   2    2  183   89 PO
+   2    2  185   89 PO
+   2    2  187   89 PO
+   2    2  188   89 PO
+   2    2  190   89 PO
+   2    2  191   89 PO
+   2    2  190   89 PO
+   2    2  190   90 PO
+   2    2  189   90 PO
+   2    2  187   91 PO
+   2    2  185   92 PO
+   2    2  183   92 PO
+   2    2  181   94 PO
+   2    2  181   97 PO
+   2    2  180  101 PO
+   2    2  179  105 PO
+   2    2  178  109 PO
+   2    2  177  112 PO
+   2    2  177  115 PO
+   2    2  177  119 PO
+   2    2  177  122 PO
+   2    2  177  126 PO
+   2    2  177  129 PO
+   2    2  177  132 PO
+   2    2  177  134 PO
+   2    2  177  137 PO
+   2    2  177  140 PO
+   2    2  177  143 PO
+   2    2  176  144 PO
+   2    2  176  145 PO
+   2    2  175  147 PO
+   2    2  171  146 PO
+   2    2  167  145 PO
+   2    2  163  144 PO
+   2    2  159  144 PO
+   2    2  156  144 PO
+   2    2  152  144 PO
+   2    2  148  145 PO
+   2    2  145  146 PO
+   2    2  141  148 PO
+   2    2  139  149 PO
+   2    2  135  150 PO
+   2    2  130  149 PO
+   2    2  125  148 PO
+   2    2  119  147 PO
+   2    2  114  146 PO
+   2    2  111  144 PO
+   2    2  110  141 PO
+   2    2  108  138 PO
+   2    2  108  135 PO
+   2    2  108  132 PO
+   2    2  108  129 PO
+   2    2  108  124 PO
+   2    2  108  120 PO
+   2    2  106  115 PO
+   2    2  103  111 PO
+   2    2  104  107 PO
+   2    2  104  103 PO
+   2    2  105   98 PO
+   2    2  104   93 PO
+   2    2  104   88 PO
+   2    2  103   84 PO
+   2    2  101   80 PO
+   2    2  101   77 PO
+   2    2  100   73 PO
+   2    2   99   71 PO
+   2    2   97   70 PO
+   2    2   95   70 PO
+   2    2   93   69 PO
+   2    2   90   67 PO
+   2    2   86   65 PO
+   2    2   83   62 PO
+   2    2   83   58 PO
+   2    2   83   54 PO
+   2    2   82   50 PO
+   2    2   80   46 PO
+   2    2   80   44 PO
+   2    2   80   42 PO
+   2    2   80   40 PO
+   2    2   79   37 PO
+   2    2   78   33 PO
+   2    2   77   30 PO
+   2    2   76   28 PO
+   2    2   76   26 PO
+   2    2   77   26 PO
+   2    2   77   27 PO
+   2    2   78   27 PO
+   2    2   78   28 PO
+   2    2   78   29 PO
+   2    2   78   30 PO
+   2    2   78   31 PO
+   2    2   78   32 PO
+   2    2   78   33 PO
+   2    2   78   35 PO
+   2    2   78   37 PO
+   2    2   79   40 PO
+   2    2   80   44 PO
+   2    2   80   49 PO
+   2    2   81   54 PO
+   2    2   82   60 PO
+   2    2   83   62 PO
+   2    2   83   65 PO
+   2    2   85   66 PO
+   2    2   86   68 PO
+   2    2   88   71 PO
+   2    2   91   75 PO
+   2    2   94   79 PO
+   2    2   97   82 PO
+   2    2   99   85 PO
+   2    2  101   88 PO
+   2    2  103   91 PO
+   2    2  104   92 PO
+   2    2  105   93 PO
+   2    2  106   94 PO
+   2    2  108   95 PO
+   2    2  110   99 PO
+   2    2  112  102 PO
+   2    2  113  105 PO
+   2    2  114  107 PO
+   2    2  114  106 PO
+   2    2  114  105 PO
+   2    2  114  104 PO
+   2    2  114  103 PO
+   2    2  114  101 PO
+   2    2  114   99 PO
+   2    2  114   96 PO
+   2    2  113   93 PO
+   2    2  113   90 PO
+   2    2  112   88 PO
+   2    2  110   86 PO
+   2    2  111   82 PO
+   2    2  111   78 PO
+   2    2  112   73 PO
+   2    2  114   67 PO
+   2    2  115   61 PO
+   2    2  116   55 PO
+   2    2  117   50 PO
+   2    2  119   46 PO
+   2    2  120   41 PO
+   2    2  122   38 PO
+   2    2  123   35 PO
+   2    2  124   35 PO
+   2    2  126   35 PO
+   2    2  129   34 PO
+   2    2  131   34 PO
+   2    2  134   34 PO
+   2    2  138   34 PO
+   2    2  141   35 PO
+   2    2  144   35 PO
+   2    2  147   35 PO
+   2    2  150   36 PO
+   2    2  153   37 PO
+   2    2  156   37 PO
+   2    2  158   39 PO
+   2    2  160   41 PO
+   2    2  161   43 PO
+   2    2  162   45 PO
+   2    2  163   46 PO
+   2    2  164   49 PO
+   2    2  164   54 PO
+   2    2  165   58 PO
+   2    2  165   60 PO
+   2    2  166   62 PO
+   2    2  166   64 PO
+   2    2  166   67 PO
+   2    2  167   70 PO
+   2    2  167   72 PO
+   2    2  168   77 PO
+   2    2  170   82 PO
+   2    2  172   87 PO
+   2    2  172   89 PO
+   2    2  173   92 PO
+   2    2  174   95 PO
+   2    2  174   98 PO
+   2    2  175  102 PO
+   2    2  176  104 PO
+   2    2  176  106 PO
+   2    2  176  108 PO
+   2    2  176  112 PO
+   2    2  176  116 PO
+   2    2  176  121 PO
+   2    2  176  126 PO
+   2    2  175  132 PO
+   2    2  174  137 PO
+   2    2  174  141 PO
+   2    2  174  143 PO
+   2    2  173  146 PO
+   2    2  173  149 PO
+   2    2  172  153 PO
+   2    2  171  156 PO
+   2    2  170  159 PO
+   2    2  169  162 PO
+   2    2  167  163 PO
+   2    2  166  164 PO
+   2    2  165  164 PO
+   2    2  165  163 PO
+   2    2  164  163 PO
+   2    2  165  163 PO
+   2    2  165  164 PO
+c8
+   2    2  167  164 FO
+   2    2  167  163 FO
+   2    2  167  162 FO
+   2    2  167  161 FO
+   2    2  168  161 FO
+   2    2  168  160 FO
+   2    2  168  159 FO
+   2    2  169  157 FO
+   2    2  170  155 FO
+   2    2  171  152 FO
+   2    2  172  149 FO
+   2    2  174  145 FO
+   2    2  175  142 FO
+   2    2  176  138 FO
+   2    2  177  133 FO
+   2    2  178  128 FO
+   2    2  179  123 FO
+   2    2  180  119 FO
+   2    2  180  114 FO
+   2    2  180  109 FO
+   2    2  179  107 FO
+   2    2  179  104 FO
+   2    2  179  102 FO
+   2    2  179  100 FO
+   2    2  178   99 FO
+   2    2  177   98 FO
+   2    2  176   96 FO
+   2    2  175   94 FO
+   2    2  173   92 FO
+   2    2  172   91 FO
+   2    2  170   87 FO
+   2    2  168   83 FO
+   2    2  166   79 FO
+   2    2  164   75 FO
+   2    2  163   72 FO
+   2    2  162   68 FO
+   2    2  162   65 FO
+   2    2  163   61 FO
+   2    2  163   58 FO
+   2    2  163   56 FO
+   2    2  164   53 FO
+   2    2  163   49 FO
+   2    2  163   45 FO
+   2    2  161   41 FO
+   2    2  156   38 FO
+   2    2  152   35 FO
+   2    2  150   33 FO
+   2    2  148   33 FO
+   2    2  146   32 FO
+   2    2  144   31 FO
+   2    2  143   31 FO
+   2    2  142   30 FO
+   2    2  140   30 FO
+   2    2  139   30 FO
+   2    2  138   30 FO
+   2    2  137   30 FO
+   2    2  135   30 FO
+   2    2  134   30 FO
+   2    2  133   29 FO
+   2    2  132   29 FO
+   2    2  130   29 FO
+   2    2  129   29 FO
+   2    2  127   28 FO
+   2    2  125   28 FO
+   2    2  122   27 FO
+   2    2  120   27 FO
+   2    2  119   28 FO
+   2    2  118   28 FO
+   2    2  118   29 FO
+   2    2  118   30 FO
+   2    2  118   31 FO
+   2    2  118   33 FO
+   2    2  118   34 FO
+   2    2  118   36 FO
+   2    2  118   37 FO
+   2    2  118   42 FO
+   2    2  117   46 FO
+   2    2  117   50 FO
+   2    2  117   52 FO
+   2    2  116   55 FO
+   2    2  115   57 FO
+   2    2  115   59 FO
+   2    2  114   61 FO
+   2    2  114   63 FO
+   2    2  113   65 FO
+   2    2  113   67 FO
+   2    2  112   70 FO
+   2    2  112   72 FO
+   2    2  111   78 FO
+   2    2  110   85 FO
+   2    2  109   91 FO
+   2    2  109   96 FO
+   2    2  109  102 FO
+   2    2  109  107 FO
+   2    2  109  111 FO
+   2    2  110  116 FO
+   2    2  110  120 FO
+   2    2  110  122 FO
+   2    2  110  124 FO
+   2    2  110  126 FO
+   2    2  110  127 FO
+   2    2  110  129 FO
+   2    2  110  130 FO
+   2    2  110  132 FO
+   2    2  109  133 FO
+   2    2  108  133 FO
+   2    2  107  134 FO
+   2    2  106  135 FO
+   2    2  105  135 FO
+   2    2  105  137 FO
+   2    2  105  139 FO
+   2    2  105  141 FO
+   2    2  105  143 FO
+   2    2  104  145 FO
+   2    2  103  147 FO
+   2    2  102  148 FO
+   2    2  101  150 FO
+   2    2  101  152 FO
+   2    2  100  154 FO
+   2    2  100  157 FO
+   2    2  100  159 FO
+   2    2   99  160 FO
+   2    2   97  161 FO
+   2    2   96  163 FO
+   2    2   95  164 FO
+   2    2   96  164 FO
+   2    2   97  164 FO
+   2    2   98  164 FO
+   2    2  100  164 FO
+   2    2  101  165 FO
+   2    2  102  165 FO
+   2    2  104  164 FO
+   2    2  105  164 FO
+   2    2  106  163 FO
+   2    2  108  163 FO
+   2    2  113  163 FO
+   2    2  117  164 FO
+   2    2  120  164 FO
+   2    2  123  165 FO
+   2    2  126  165 FO
+   2    2  127  165 FO
+   2    2  128  165 FO
+   2    2  128  166 FO
+   2    2  129  166 FO
+   2    2  130  166 FO
+   2    2  131  166 FO
+   2    2  131  165 FO
+   2    2  132  165 FO
+   2    2  133  165 FO
+   2    2  134  165 FO
+   2    2  136  163 FO
+   2    2  137  162 FO
+   2    2  138  160 FO
+   2    2  138  158 FO
+   2    2  139  156 FO
+   2    2  140  153 FO
+   2    2  142  150 FO
+   2    2  144  148 FO
+   2    2  146  146 FO
+   2    2  148  145 FO
+   2    2  150  144 FO
+   2    2  152  144 FO
+   2    2  154  143 FO
+   2    2  156  143 FO
+   2    2  157  143 FO
+   2    2  158  143 FO
+   2    2  160  142 FO
+   2    2  162  142 FO
+   2    2  164  142 FO
+   2    2  167  142 FO
+   2    2  170  142 FO
+   2    2  173  142 FO
+   2    2  175  142 FO
+   2    2  178  143 FO
+   2    2  181  143 FO
+   2    2  183  144 FO
+   2    2  185  145 FO
+   2    2  186  146 FO
+   2    2  188  147 FO
+   2    2  189  150 FO
+   2    2  191  153 FO
+   2    2  192  155 FO
+   2    2  192  157 FO
+   2    2  193  158 FO
+   2    2  193  160 FO
+   2    2  194  162 FO
+   2    2  194  163 FO
+   2    2  194  165 FO
+   2    2  194  166 FO
+   2    2  194  167 FO
+   2    2  193  167 FO
+   2    2  193  168 FO
+   2    2  192  168 FO
+   2    2  191  169 FO
+   2    2  190  170 FO
+   2    2  189  170 FO
+   2    2  187  170 FO
+   2    2  186  170 FO
+   2    2  184  170 FO
+   2    2  182  171 FO
+   2    2  181  171 FO
+   2    2  181  170 FO
+   2    2  181  169 FO
+   2    2  180  169 FO
+   2    2  180  168 FO
+   2    2  180  167 FO
+   2    2  179  166 FO
+   2    2  179  165 FO
+   2    2  178  164 FO
+   2    2  176  164 FO
+   2    2  174  163 FO
+   2    2  171  163 FO
+   2    2  169  162 FO
+   2    2  167  162 FO
+   2    2  167  161 FO
+   2    2  166  161 FO
+   2    2  165  160 FO
+   2    2  165  161 FO
+   2    2  166  161 FO
+   2    2  166  160 FO
+   2    2  166  158 FO
+   2    2  166  157 FO
+   2    2  167  156 FO
+   2    2  167  154 FO
+   2    2  167  153 FO
+   2    2  167  151 FO
+   2    2  168  150 FO
+   2    2  168  148 FO
+   2    2  170  146 FO
+   2    2  171  143 FO
+   2    2  173  141 FO
+   2    2  174  136 FO
+   2    2  175  132 FO
+   2    2  177  127 FO
+   2    2  177  125 FO
+   2    2  178  122 FO
+   2    2  179  119 FO
+   2    2  179  116 FO
+   2    2  180  113 FO
+   2    2  180  110 FO
+   2    2  180  108 FO
+   2    2  180  105 FO
+   2    2  180  102 FO
+   2    2  180  100 FO
+   2    2  180   99 FO
+   2    2  180   97 FO
+   2    2  180   95 FO
+   2    2  181   93 FO
+   2    2  182   91 FO
+   2    2  183   89 FO
+   2    2  185   88 FO
+   2    2  187   86 FO
+   2    2  189   86 FO
+   2    2  191   86 FO
+   2    2  193   86 FO
+   2    2  195   86 FO
+   2    2  196   86 FO
+   2    2  197   87 FO
+   2    2  198   87 FO
+   2    2  198   88 FO
+   2    2  197   88 FO
+   2    2  196   88 FO
+   2    2  195   88 FO
+   2    2  194   88 FO
+   2    2  194   89 FO
+   2    2  193   89 FO
+   2    2  192   89 FO
+   2    2  191   89 FO
+   2    2  188   90 FO
+   2    2  184   91 FO
+   2    2  182   92 FO
+   2    2  180   93 FO
+   2    2  179   94 FO
+   2    2  178   96 FO
+   2    2  178  100 FO
+   2    2  178  104 FO
+   2    2  178  109 FO
+   2    2  177  114 FO
+   2    2  177  119 FO
+   2    2  176  121 FO
+   2    2  176  123 FO
+   2    2  175  125 FO
+   2    2  174  128 FO
+   2    2  173  132 FO
+   2    2  173  135 FO
+   2    2  172  139 FO
+   2    2  172  144 FO
+   2    2  171  148 FO
+   2    2  170  151 FO
+   2    2  169  155 FO
+   2    2  168  158 FO
+   2    2  168  162 FO
+   2    2  168  166 FO
+   2    2  168  167 FO
+   2    2  168  168 FO
+   2    2  168  169 FO
+   2    2  168  168 FO
+   2    2  168  167 FO
+   2    2  168  166 FO
+   2    2  168  165 FO
+   2    2  169  165 FO
+   2    2  169  164 FO
+   2    2  169  163 FO
+   2    2  169  162 FO
+   2    2  169  159 FO
+   2    2  169  156 FO
+   2    2  169  153 FO
+   2    2  168  150 FO
+   2    2  168  148 FO
+   2    2  168  147 FO
+   2    2  166  146 FO
+   2    2  163  145 FO
+   2    2  160  144 FO
+   2    2  155  144 FO
+   2    2  150  143 FO
+   2    2  144  143 FO
+   2    2  138  143 FO
+   2    2  132  144 FO
+   2    2  127  146 FO
+   2    2  122  149 FO
+   2    2  119  151 FO
+   2    2  115  153 FO
+   2    2  110  154 FO
+   2    2  104  154 FO
+   2    2   99  154 FO
+   2    2   97  153 FO
+   2    2   96  151 FO
+   2    2   94  150 FO
+   2    2   95  148 FO
+   2    2   95  146 FO
+   2    2   95  144 FO
+   2    2   96  142 FO
+   2    2   97  140 FO
+   2    2   98  139 FO
+   2    2   99  137 FO
+   2    2  101  135 FO
+   2    2  103  133 FO
+   2    2  103  131 FO
+   2    2  104  129 FO
+   2    2  105  126 FO
+   2    2  107  122 FO
+   2    2  109  117 FO
+   2    2  111  114 FO
+   2    2  113  110 FO
+   2    2  115  106 FO
+   2    2  116  103 FO
+   2    2  117   99 FO
+   2    2  117   98 FO
+   2    2  116   98 FO
+   2    2  116   97 FO
+   2    2  116   96 FO
+   2    2  116   95 FO
+   2    2  115   94 FO
+   2    2  115   93 FO
+   2    2  115   92 FO
+   2    2  115   88 FO
+   2    2  114   83 FO
+   2    2  114   78 FO
+   2    2  114   76 FO
+   2    2  114   74 FO
+   2    2  114   72 FO
+   2    2  114   68 FO
+   2    2  115   65 FO
+   2    2  115   62 FO
+   2    2  116   59 FO
+   2    2  117   55 FO
+   2    2  116   51 FO
+   2    2  116   46 FO
+   2    2  115   42 FO
+   2    2  115   39 FO
+   2    2  115   36 FO
+   2    2  115   33 FO
+   2    2  115   31 FO
+   2    2  115   30 FO
+   2    2  115   28 FO
+   2    2  115   27 FO
+   2    2  114   27 FO
+   2    2  114   26 FO
+   2    2  115   25 FO
+   2    2  116   25 FO
+   2    2  116   26 FO
+   2    2  116   27 FO
+   2    2  116   28 FO
+   2    2  116   30 FO
+   2    2  116   32 FO
+   2    2  116   34 FO
+   2    2  115   36 FO
+   2    2  115   38 FO
+   2    2  115   42 FO
+   2    2  114   47 FO
+   2    2  114   52 FO
+   2    2  114   58 FO
+   2    2  113   64 FO
+   2    2  112   69 FO
+   2    2  110   73 FO
+   2    2  108   77 FO
+   2    2  106   81 FO
+   2    2  104   83 FO
+   2    2  101   85 FO
+   2    2   99   87 FO
+   2    2   97   89 FO
+   2    2   96   90 FO
+   2    2   94   92 FO
+   2    2   92   95 FO
+   2    2   90   97 FO
+   2    2   89  100 FO
+   2    2   88  101 FO
+   2    2   88  102 FO
+   2    2   88  103 FO
+   2    2   88  104 FO
+   2    2   88  105 FO
+   2    2   88  106 FO
+   2    2   88  107 FO
+   2    2   88  108 FO
+   2    2   88  110 FO
+   2    2   89  113 FO
+   2    2   89  115 FO
+   2    2   89  116 FO
+   2    2   89  117 FO
+   2    2   89  118 FO
+   2    2   89  120 FO
+   2    2   90  124 FO
+   2    2   90  127 FO
+   2    2   91  132 FO
+   2    2   92  136 FO
+   2    2   93  140 FO
+   2    2   94  143 FO
+   2    2   94  146 FO
+   2    2   94  149 FO
+   2    2   95  151 FO
+   2    2   95  153 FO
+   2    2   95  155 FO
+   2    2   95  157 FO
+   2    2   94  159 FO
+   2    2   94  161 FO
+   2    2   93  163 FO
+   2    2   91  165 FO
+   2    2   90  167 FO
+   2    2   89  168 FO
+   2    2   89  170 FO
+   2    2   88  171 FO
+   2    2   89  171 FO
+   2    2   90  170 FO
+   2    2   91  169 FO
+   2    2   91  168 FO
+   2    2   92  168 FO
+   2    2   93  167 FO
+   2    2   94  166 FO
+   2    2   95  165 FO
+   2    2   96  164 FO
+   2    2   99  164 FO
+   2    2  102  164 FO
+   2    2  105  164 FO
+   2    2  110  164 FO
+   2    2  116  163 FO
+   2    2  120  162 FO
+   2    2  124  161 FO
+   2    2  128  159 FO
+   2    2  131  157 FO
+   2    2  135  155 FO
+   2    2  138  153 FO
+   2    2  140  151 FO
+   2    2  141  148 FO
+   2    2  143  146 FO
+   2    2  144  145 FO
+   2    2  145  144 FO
+   2    2  146  143 FO
+   2    2  148  143 FO
+   2    2  150  143 FO
+   2    2  152  142 FO
+   2    2  154  141 FO
+   2    2  157  141 FO
+   2    2  159  140 FO
+   2    2  164  140 FO
+   2    2  169  139 FO
+   2    2  173  139 FO
+   2    2  177  139 FO
+   2    2  181  139 FO
+   2    2  185  139 FO
+   2    2  188  138 FO
+   2    2  192  138 FO
+   2    2  193  136 FO
+   2    2  194  135 FO
+   2    2  195  133 FO
+   2    2  196  130 FO
+   2    2  197  128 FO
+   2    2  197  127 FO
+   2    2  196  127 FO
+   2    2  196  126 FO
+   2    2  195  126 FO
+   2    2  194  126 FO
+   2    2  193  125 FO
+   2    2  192  125 FO
+   2    2  191  125 FO
+   2    2  190  124 FO
+   2    2  189  124 FO
+   2    2  188  124 FO
+   2    2  187  123 FO
+   2    2  185  122 FO
+   2    2  182  120 FO
+   2    2  180  118 FO
+   2    2  180  115 FO
+   2    2  179  112 FO
+   2    2  179  109 FO
+   2    2  179  107 FO
+   2    2  179  104 FO
+   2    2  177   99 FO
+   2    2  175   94 FO
+   2    2  173   91 FO
+   2    2  171   90 FO
+   2    2  169   89 FO
+   2    2  167   88 FO
+   2    2  165   87 FO
+   2    2  162   86 FO
+   2    2  159   85 FO
+   2    2  158   84 FO
+   2    2  158   82 FO
+   2    2  157   80 FO
+   2    2  156   79 FO
+   2    2  156   78 FO
+   2    2  155   78 FO
+   2    2  155   77 FO
+   2    2  155   76 FO
+   2    2  156   74 FO
+   2    2  157   73 FO
+   2    2  158   70 FO
+   2    2  160   66 FO
+   2    2  162   62 FO
+   2    2  164   58 FO
+   2    2  165   55 FO
+   2    2  167   51 FO
+   2    2  168   48 FO
+   2    2  168   46 FO
+   2    2  169   44 FO
+   2    2  170   41 FO
+   2    2  171   39 FO
+   2    2  172   37 FO
+   2    2  173   36 FO
+   2    2  174   34 FO
+   2    2  176   33 FO
+   2    2  177   32 FO
+   2    2  179   31 FO
+   2    2  181   31 FO
+   2    2  183   31 FO
+   2    2  184   30 FO
+   2    2  186   30 FO
+   2    2  188   30 FO
+   2    2  189   30 FO
+   2    2  191   30 FO
+   2    2  193   30 FO
+   2    2  195   30 FO
+   2    2  196   31 FO
+   2    2  198   31 FO
+   2    2  199   33 FO
+   2    2  200   36 FO
+   2    2  201   40 FO
+   2    2  202   44 FO
+   2    2  203   46 FO
+   2    2  204   48 FO
+   2    2  206   51 FO
+   2    2  207   53 FO
+   2    2  206   53 FO
+   2    2  205   53 FO
+   2    2  205   54 FO
+   2    2  204   54 FO
+   2    2  203   54 FO
+   2    2  202   54 FO
+   2    2  201   55 FO
+   2    2  200   55 FO
+   2    2  200   54 FO
+   2    2  199   54 FO
+   2    2  199   53 FO
+   2    2  199   52 FO
+   2    2  199   51 FO
+   2    2  199   50 FO
+   2    2  199   49 FO
+   2    2  199   48 FO
+   2    2  199   47 FO
+   2    2  199   46 FO
+   2    2  199   45 FO
+   2    2  199   44 FO
+   2    2  199   42 FO
+   2    2  199   40 FO
+   2    2  199   38 FO
+   2    2  198   36 FO
+   2    2  197   34 FO
+   2    2  196   32 FO
+   2    2  195   31 FO
+   2    2  194   31 FO
+   2    2  192   31 FO
+   2    2  190   31 FO
+   2    2  187   30 FO
+   2    2  184   29 FO
+   2    2  181   29 FO
+   2    2  178   30 FO
+   2    2  175   30 FO
+   2    2  172   31 FO
+   2    2  170   31 FO
+   2    2  168   32 FO
+   2    2  166   33 FO
+   2    2  165   34 FO
+   2    2  159   33 FO
+   2    2  154   33 FO
+   2    2  150   32 FO
+   2    2  146   32 FO
+   2    2  143   31 FO
+   2    2  140   30 FO
+   2    2  137   30 FO
+   2    2  134   29 FO
+   2    2  132   30 FO
+   2    2  131   31 FO
+   2    2  129   32 FO
+   2    2  127   33 FO
+   2    2  124   35 FO
+   2    2  122   37 FO
+   2    2  120   40 FO
+   2    2  119   43 FO
+   2    2  118   46 FO
+   2    2  117   48 FO
+   2    2  116   51 FO
+   2    2  115   53 FO
+   2    2  114   56 FO
+   2    2  113   57 FO
+   2    2  112   58 FO
+   2    2  112   60 FO
+   2    2  111   61 FO
+   2    2  110   62 FO
+   2    2  110   63 FO
+   2    2  109   65 FO
+   2    2  108   66 FO
+   2    2  107   66 FO
+   2    2  106   66 FO
+   2    2  105   66 FO
+   2    2  105   67 FO
+   2    2  103   67 FO
+   2    2  102   67 FO
+   2    2  100   67 FO
+   2    2   99   70 FO
+   2    2   98   72 FO
+   2    2   97   75 FO
+   2    2   97   79 FO
+   2    2   97   83 FO
+   2    2   97   87 FO
+   2    2   97   91 FO
+   2    2   98   95 FO
+   2    2   98   98 FO
+   2    2   98  102 FO
+   2    2   98  106 FO
+   2    2   98  110 FO
+   2    2   97  115 FO
+   2    2   97  119 FO
+   2    2   97  123 FO
+   2    2   96  128 FO
+   2    2   96  132 FO
+   2    2   95  136 FO
+   2    2   95  140 FO
+   2    2   94  143 FO
+   2    2   94  146 FO
+   2    2   93  147 FO
+   2    2   93  149 FO
+   2    2   94  152 FO
+   2    2   97  155 FO
+   2    2   99  158 FO
+   2    2  103  159 FO
+   2    2  106  159 FO
+   2    2  109  160 FO
+   2    2  112  161 FO
+   2    2  115  161 FO
+   2    2  117  162 FO
+   2    2  120  162 FO
+   2    2  122  162 FO
+   2    2  124  163 FO
+   2    2  126  163 FO
+   2    2  128  161 FO
+   2    2  130  159 FO
+   2    2  131  158 FO
+   2    2  132  157 FO
+   2    2  133  155 FO
+   2    2  134  154 FO
+   2    2  135  153 FO
+   2    2  136  152 FO
+   2    2  137  151 FO
+   2    2  138  150 FO
+   2    2  140  148 FO
+   2    2  142  147 FO
+   2    2  144  145 FO
+   2    2  147  144 FO
+   2    2  149  142 FO
+   2    2  151  142 FO
+   2    2  153  141 FO
+   2    2  156  140 FO
+   2    2  158  140 FO
+   2    2  161  140 FO
+   2    2  163  141 FO
+   2    2  164  142 FO
+   2    2  165  144 FO
+   2    2  166  146 FO
+   2    2  166  148 FO
+   2    2  167  151 FO
+   2    2  167  153 FO
+   2    2  168  156 FO
+   2    2  168  158 FO
+   2    2  167  160 FO
+   2    2  167  162 FO
+   2    2  166  164 FO
+   2    2  165  164 FO
+   2    2  165  165 FO
+   2    2  164  165 FO
+   2    2  164  164 FO
+   2    2  163  163 FO
+   2    2  163  162 FO
+   2    2  163  161 FO
+   2    2  164  159 FO
+   2    2  166  158 FO
+   2    2  167  156 FO
+   2    2  169  155 FO
+   2    2  171  153 FO
+   2    2  172  152 FO
+   2    2  173  152 FO
+   2    2  174  151 FO
+   2    2  175  149 FO
+   2    2  175  146 FO
+   2    2  176  143 FO
+   2    2  176  140 FO
+   2    2  177  137 FO
+   2    2  178  133 FO
+   2    2  179  130 FO
+   2    2  180  127 FO
+   2    2  180  124 FO
+   2    2  180  120 FO
+   2    2  180  115 FO
+   2    2  179  111 FO
+   2    2  179  109 FO
+   2    2  180  107 FO
+   2    2  180  104 FO
+   2    2  180  101 FO
+   2    2  179   98 FO
+   2    2  179   96 FO
+   2    2  179   95 FO
+   2    2  179   94 FO
+   2    2  179   93 FO
+   2    2  180   92 FO
+   2    2  182   91 FO
+   2    2  183   89 FO
+   2    2  185   89 FO
+   2    2  187   89 FO
+   2    2  188   89 FO
+   2    2  190   89 FO
+   2    2  191   89 FO
+   2    2  190   89 FO
+   2    2  190   90 FO
+   2    2  189   90 FO
+   2    2  187   91 FO
+   2    2  185   92 FO
+   2    2  183   92 FO
+   2    2  181   94 FO
+   2    2  181   97 FO
+   2    2  180  101 FO
+   2    2  179  105 FO
+   2    2  178  109 FO
+   2    2  177  112 FO
+   2    2  177  115 FO
+   2    2  177  119 FO
+   2    2  177  122 FO
+   2    2  177  126 FO
+   2    2  177  129 FO
+   2    2  177  132 FO
+   2    2  177  134 FO
+   2    2  177  137 FO
+   2    2  177  140 FO
+   2    2  177  143 FO
+   2    2  176  144 FO
+   2    2  176  145 FO
+   2    2  175  147 FO
+   2    2  171  146 FO
+   2    2  167  145 FO
+   2    2  163  144 FO
+   2    2  159  144 FO
+   2    2  156  144 FO
+   2    2  152  144 FO
+   2    2  148  145 FO
+   2    2  145  146 FO
+   2    2  141  148 FO
+   2    2  139  149 FO
+   2    2  135  150 FO
+   2    2  130  149 FO
+   2    2  125  148 FO
+   2    2  119  147 FO
+   2    2  114  146 FO
+   2    2  111  144 FO
+   2    2  110  141 FO
+   2    2  108  138 FO
+   2    2  108  135 FO
+   2    2  108  132 FO
+   2    2  108  129 FO
+   2    2  108  124 FO
+   2    2  108  120 FO
+   2    2  106  115 FO
+   2    2  103  111 FO
+   2    2  104  107 FO
+   2    2  104  103 FO
+   2    2  105   98 FO
+   2    2  104   93 FO
+   2    2  104   88 FO
+   2    2  103   84 FO
+   2    2  101   80 FO
+   2    2  101   77 FO
+   2    2  100   73 FO
+   2    2   99   71 FO
+   2    2   97   70 FO
+   2    2   95   70 FO
+   2    2   93   69 FO
+   2    2   90   67 FO
+   2    2   86   65 FO
+   2    2   83   62 FO
+   2    2   83   58 FO
+   2    2   83   54 FO
+   2    2   82   50 FO
+   2    2   80   46 FO
+   2    2   80   44 FO
+   2    2   80   42 FO
+   2    2   80   40 FO
+   2    2   79   37 FO
+   2    2   78   33 FO
+   2    2   77   30 FO
+   2    2   76   28 FO
+   2    2   76   26 FO
+   2    2   77   26 FO
+   2    2   77   27 FO
+   2    2   78   27 FO
+   2    2   78   28 FO
+   2    2   78   29 FO
+   2    2   78   30 FO
+   2    2   78   31 FO
+   2    2   78   32 FO
+   2    2   78   33 FO
+   2    2   78   35 FO
+   2    2   78   37 FO
+   2    2   79   40 FO
+   2    2   80   44 FO
+   2    2   80   49 FO
+   2    2   81   54 FO
+   2    2   82   60 FO
+   2    2   83   62 FO
+   2    2   83   65 FO
+   2    2   85   66 FO
+   2    2   86   68 FO
+   2    2   88   71 FO
+   2    2   91   75 FO
+   2    2   94   79 FO
+   2    2   97   82 FO
+   2    2   99   85 FO
+   2    2  101   88 FO
+   2    2  103   91 FO
+   2    2  104   92 FO
+   2    2  105   93 FO
+   2    2  106   94 FO
+   2    2  108   95 FO
+   2    2  110   99 FO
+   2    2  112  102 FO
+   2    2  113  105 FO
+   2    2  114  107 FO
+   2    2  114  106 FO
+   2    2  114  105 FO
+   2    2  114  104 FO
+   2    2  114  103 FO
+   2    2  114  101 FO
+   2    2  114   99 FO
+   2    2  114   96 FO
+   2    2  113   93 FO
+   2    2  113   90 FO
+   2    2  112   88 FO
+   2    2  110   86 FO
+   2    2  111   82 FO
+   2    2  111   78 FO
+   2    2  112   73 FO
+   2    2  114   67 FO
+   2    2  115   61 FO
+   2    2  116   55 FO
+   2    2  117   50 FO
+   2    2  119   46 FO
+   2    2  120   41 FO
+   2    2  122   38 FO
+   2    2  123   35 FO
+   2    2  124   35 FO
+   2    2  126   35 FO
+   2    2  129   34 FO
+   2    2  131   34 FO
+   2    2  134   34 FO
+   2    2  138   34 FO
+   2    2  141   35 FO
+   2    2  144   35 FO
+   2    2  147   35 FO
+   2    2  150   36 FO
+   2    2  153   37 FO
+   2    2  156   37 FO
+   2    2  158   39 FO
+   2    2  160   41 FO
+   2    2  161   43 FO
+   2    2  162   45 FO
+   2    2  163   46 FO
+   2    2  164   49 FO
+   2    2  164   54 FO
+   2    2  165   58 FO
+   2    2  165   60 FO
+   2    2  166   62 FO
+   2    2  166   64 FO
+   2    2  166   67 FO
+   2    2  167   70 FO
+   2    2  167   72 FO
+   2    2  168   77 FO
+   2    2  170   82 FO
+   2    2  172   87 FO
+   2    2  172   89 FO
+   2    2  173   92 FO
+   2    2  174   95 FO
+   2    2  174   98 FO
+   2    2  175  102 FO
+   2    2  176  104 FO
+   2    2  176  106 FO
+   2    2  176  108 FO
+   2    2  176  112 FO
+   2    2  176  116 FO
+   2    2  176  121 FO
+   2    2  176  126 FO
+   2    2  175  132 FO
+   2    2  174  137 FO
+   2    2  174  141 FO
+   2    2  174  143 FO
+   2    2  173  146 FO
+   2    2  173  149 FO
+   2    2  172  153 FO
+   2    2  171  156 FO
+   2    2  170  159 FO
+   2    2  169  162 FO
+   2    2  167  163 FO
+   2    2  166  164 FO
+   2    2  165  164 FO
+   2    2  165  163 FO
+   2    2  164  163 FO
+   2    2  165  163 FO
+   2    2  165  164 FO
+gr
+
+gs 70 22 153 178 rc
+gr
+
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
